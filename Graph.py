@@ -26,4 +26,4 @@ def createCandleGraph(data: pd.DataFrame):
                                           go.Scatter(x=data.time, y=data.MA20, line=dict(color='green', width=1), name="MA20")
                                           ])
     # Shows the graph in your browser
-    graph.show(),
+    graph.show()
